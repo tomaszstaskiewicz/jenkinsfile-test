@@ -12,7 +12,7 @@ pipeline {
   parameters {
     choice(
       name: "priority",
-      choices: "low\nmedium\high",
+      choices: "low\nmedium\nhigh",
       description: "Select the priority")
   }
 
