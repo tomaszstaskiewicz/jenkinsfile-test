@@ -5,6 +5,9 @@ pipeline {
       label "azure && ubuntu"
     }
   }
+  tools {
+      git 'GitOnLinuxSlaves'
+  }
 
   environment {
     MY_ENV = "123"
